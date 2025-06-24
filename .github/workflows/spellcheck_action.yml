@@ -25,6 +25,9 @@ on:
       - ".github/spellcheck/.wordlist.txt"
 #      - "docs/**"
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Spellcheck

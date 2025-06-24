@@ -8,6 +8,9 @@ on:
     # No need on most types
     types: [opened, reopened]
 
+permissions:
+  contents: read
+
 jobs:
   greeting:
     runs-on: ubuntu-latest

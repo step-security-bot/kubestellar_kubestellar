@@ -5,6 +5,9 @@ on:
   # So we can trigger manually if needed
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   ginkgo-test:
     name: ginkgo tests
